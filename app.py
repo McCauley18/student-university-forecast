@@ -174,7 +174,7 @@ with summary_cols[0]:
     st.metric("School Type", type_school)
 with summary_cols[1]:
     st.metric("Accreditation", school_accreditation)
-with summary_cols[2]:
+with summary_cols[2]:  
     st.metric("Gender", gender)
 with summary_cols[3]:
     st.metric("Interest", interest)
