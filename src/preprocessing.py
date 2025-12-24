@@ -2,7 +2,8 @@ import pickle
 import pandas as pd
 from pathlib import Path
 
-SCALER_PATH = Path(__file__).resolve().parent.parent / "model" / "scalerxgboost.pkl"
+BASE_DIR = Path(__file__).resolve().parent.parent  # repo root
+SCALER_PATH = BASE_DIR / "model" / "scalerxgboost.pkl"
 
 # Load scaler once
 
