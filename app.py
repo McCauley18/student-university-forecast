@@ -177,7 +177,7 @@ with summary_cols[1]:
 with summary_cols[2]:  
     st.metric("Gender", gender)
 with summary_cols[3]:
-    st.metric("Interest", interest)
+    st.metric("Interest", interest) 
 with summary_cols[4]:
     st.metric("Residence", residence)
 
